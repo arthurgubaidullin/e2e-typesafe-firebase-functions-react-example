@@ -2,7 +2,11 @@
   "name": "end-to-end-typesafe-firebase-functions",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "npx nx run-many --target=build",
+    "preserve": "npm run build",
+    "serve": "npx firebase emulators:start"
+  },
   "private": true,
   "dependencies": {
     "firebase-admin": "^11.6.0",
