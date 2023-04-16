@@ -13,8 +13,16 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "*",
+                "sourceTag": "",
                 "onlyDependOnLibsWithTags": ["*"]
+              },
+              {
+                "sourceTag": "slice:app",
+                "onlyDependOnLibsWithTags": ["slice:app"]
+              },
+              {
+                "sourceTag": "slice:functions",
+                "onlyDependOnLibsWithTags": ["slice:functions"]
               }
             ]
           }
