@@ -18,11 +18,21 @@
               },
               {
                 "sourceTag": "slice:app",
-                "onlyDependOnLibsWithTags": ["slice:app"]
+                "onlyDependOnLibsWithTags": [
+                  "slice:app",
+                  "slice:data-transfer-contract"
+                ]
               },
               {
                 "sourceTag": "slice:functions",
-                "onlyDependOnLibsWithTags": ["slice:functions"]
+                "onlyDependOnLibsWithTags": [
+                  "slice:functions",
+                  "slice:data-transfer-contract"
+                ]
+              },
+              {
+                "sourceTag": "slice:data-transfer-contract",
+                "onlyDependOnLibsWithTags": ["slice:data-transfer-contract"]
               }
             ]
           }
