@@ -43,6 +43,12 @@
           "codeCoverage": true
         }
       }
+    },
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx firebase emulators:start"
+      }
     }
   },
   "tags": ["slice:functions"]
