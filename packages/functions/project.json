@@ -19,7 +19,8 @@
           "fp-ts",
           "io-ts",
           "tslib"
-        ]
+        ],
+        "format": ["cjs"]
       }
     },
     "lint": {
