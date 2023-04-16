@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@end-to-end-typesafe-firebase-functions/functions": [
+        "packages/functions/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
