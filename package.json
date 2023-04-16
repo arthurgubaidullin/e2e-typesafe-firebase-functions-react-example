@@ -4,7 +4,10 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "fp-ts": "^2.13.1",
+    "io-ts": "^2.2.20"
+  },
   "devDependencies": {
     "@nrwl/js": "15.9.2",
     "@nrwl/workspace": "15.9.2",
