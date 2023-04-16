@@ -43,7 +43,13 @@ export default defineConfig({
     },
     rollupOptions: {
       // External packages that should not be bundled into your library.
-      external: [],
+      external: [
+        'firebase-admin',
+        'firebase-functions',
+        'fp-ts',
+        'io-ts',
+        'tslib',
+      ],
     },
   },
 });
