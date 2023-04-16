@@ -23,6 +23,9 @@
       ],
       "@end-to-end-typesafe-firebase-functions/https-callable-client-enforcer": [
         "packages/https-callable-client-enforcer/src/index.ts"
+      ],
+      "@end-to-end-typesafe-firebase-functions/https-callable-server-enforcer": [
+        "packages/https-callable-server-enforcer/src/index.ts"
       ]
     }
   },
