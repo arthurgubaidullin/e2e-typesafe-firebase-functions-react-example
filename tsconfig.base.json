@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@end-to-end-typesafe-firebase-functions/data-transfer-contract": [
+        "packages/data-transfer-contract/src/index.ts"
+      ],
       "@end-to-end-typesafe-firebase-functions/functions": [
         "packages/functions/src/index.ts"
       ]
