@@ -1,6 +1,10 @@
+import { SimpleContract } from '@end-to-end-typesafe-firebase-functions/data-transfer-contract';
+import { enforceHandler } from '@end-to-end-typesafe-firebase-functions/https-callable-enforcer';
 import * as functions from 'firebase-functions';
 
-export const helloWorld = functions.https.onRequest((request, response) => {
+const handler = enforceHandler(SimpleContract)(async (data) => {
   functions.logger.info('Hello logs!', { structuredData: true });
-  response.send('Hello from Firebase!');
+  return { result: `Hello ${data.content}!` };
 });
+
+export const helloWorld = functions.https.onCall(handler);
