@@ -20,19 +20,24 @@
                 "sourceTag": "slice:app",
                 "onlyDependOnLibsWithTags": [
                   "slice:app",
-                  "slice:data-transfer-contract"
+                  "slice:data-transfer-contract",
+                  "lib"
                 ]
               },
               {
                 "sourceTag": "slice:functions",
                 "onlyDependOnLibsWithTags": [
                   "slice:functions",
-                  "slice:data-transfer-contract"
+                  "slice:data-transfer-contract",
+                  "lib"
                 ]
               },
               {
                 "sourceTag": "slice:data-transfer-contract",
-                "onlyDependOnLibsWithTags": ["slice:data-transfer-contract"]
+                "onlyDependOnLibsWithTags": [
+                  "slice:data-transfer-contract",
+                  "lib"
+                ]
               }
             ]
           }
