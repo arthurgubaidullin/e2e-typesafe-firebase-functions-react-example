@@ -64,5 +64,6 @@
     "vite-plugin-eslint": "^1.8.1",
     "vite-tsconfig-paths": "^4.0.2",
     "vitest": "^0.25.8"
-  }
+  },
+  "author": "Artur Gubaidullin <arthur.g.dev+repo@gmail.com>"
 }
