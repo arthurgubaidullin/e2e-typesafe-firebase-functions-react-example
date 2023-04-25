@@ -1,5 +1,5 @@
-import { SimpleContract } from '@end-to-end-typesafe-firebase-functions/data-transfer-contract';
-import { enforceHandler } from '@end-to-end-typesafe-firebase-functions/https-callable-server-enforcer';
+import { SimpleContract } from '@e2e-typesafe-firebase-functions-react-example/data-transfer-contract';
+import { enforceHandler } from '@e2e-typesafe-firebase-functions-react-example/https-callable-server-enforcer';
 import * as functions from 'firebase-functions';
 
 const handler = enforceHandler(SimpleContract)(async (data) => {

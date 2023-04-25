@@ -1,5 +1,5 @@
 {
   "projects": {
-    "default": "demo-end-to-end-typesafe-firebase-functions"
+    "default": "demo-e2e-typesafe-firebase-functions-react-example"
   }
 }

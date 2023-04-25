@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "end-to-end-typesafe-firebase-functions",
+  "npmScope": "e2e-typesafe-firebase-functions-react-example",
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx/tasks-runners/default",

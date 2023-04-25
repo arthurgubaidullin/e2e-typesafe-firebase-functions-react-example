@@ -15,16 +15,16 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@end-to-end-typesafe-firebase-functions/data-transfer-contract": [
+      "@e2e-typesafe-firebase-functions-react-example/data-transfer-contract": [
         "packages/data-transfer-contract/src/index.ts"
       ],
-      "@end-to-end-typesafe-firebase-functions/functions": [
+      "@e2e-typesafe-firebase-functions-react-example/functions": [
         "packages/functions/src/index.ts"
       ],
-      "@end-to-end-typesafe-firebase-functions/https-callable-client-enforcer": [
+      "@e2e-typesafe-firebase-functions-react-example/https-callable-client-enforcer": [
         "packages/https-callable-client-enforcer/src/index.ts"
       ],
-      "@end-to-end-typesafe-firebase-functions/https-callable-server-enforcer": [
+      "@e2e-typesafe-firebase-functions-react-example/https-callable-server-enforcer": [
         "packages/https-callable-server-enforcer/src/index.ts"
       ]
     }
